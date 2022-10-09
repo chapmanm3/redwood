@@ -2245,7 +2245,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdx-js/react@npm:1.6.22, @mdx-js/react@npm:^1.6.22":
+"@mdx-js/react@npm:2.1.4":
+  version: 2.1.4
+  resolution: "@mdx-js/react@npm:2.1.4"
+  dependencies:
+    "@types/mdx": ^2.0.0
+    "@types/react": ">=16"
+  peerDependencies:
+    react: ">=16"
+  checksum: e6234a97c35bffae56a3179218e8af232a2c123da6ff32bba657411f4333731a2897945a011eb3a90c03b26b1513bcfa9afe1e42bf59ef539b3c31a02e5e6cb6
+  languageName: node
+  linkType: hard
+
+"@mdx-js/react@npm:^1.6.22":
   version: 1.6.22
   resolution: "@mdx-js/react@npm:1.6.22"
   peerDependencies:
@@ -2685,6 +2697,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/mdx@npm:^2.0.0":
+  version: 2.0.2
+  resolution: "@types/mdx@npm:2.0.2"
+  checksum: f018734c4de1386f20c95d1daeda07da072e570a6ffebd9cbd1e3f006f281acb09a11c67e8c81132ad81c9d7ff0464add08c23d22b0bf089cd89da5bde3c41ab
+  languageName: node
+  linkType: hard
+
 "@types/mime@npm:^1":
   version: 1.3.2
   resolution: "@types/mime@npm:1.3.2"
@@ -2766,14 +2785,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*":
-  version: 17.0.39
-  resolution: "@types/react@npm:17.0.39"
+"@types/react@npm:*, @types/react@npm:>=16":
+  version: 18.0.21
+  resolution: "@types/react@npm:18.0.21"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 1b0c280596bf2a46da7f5fa42eca35a8a53000b18dddcc6ed32a6732577b909b81e680863a1482373fb934c0426e42932738cc849c7b6739006f1b1d8bdde2aa
+  checksum: cfe65f3291a62c86b342935df70943c222a4a70b3c74bfb45c1acb7bec47a583c9832b4628313baf0c312447c08baa6353a6f39313b0624b6eb7c1251cf5a0a0
   languageName: node
   linkType: hard
 
@@ -4624,7 +4643,7 @@ __metadata:
     "@docusaurus/module-type-aliases": 2.1.0
     "@docusaurus/plugin-content-docs": 2.1.0
     "@docusaurus/preset-classic": 2.1.0
-    "@mdx-js/react": 1.6.22
+    "@mdx-js/react": 2.1.4
     "@tsconfig/docusaurus": 1.0.6
     clsx: 1.2.1
     react: 17.0.2
