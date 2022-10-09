@@ -23427,7 +23427,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"npm-packlist@npm:5.1.3, npm-packlist@npm:^5.1.0, npm-packlist@npm:^5.1.1":
+"npm-packlist@npm:7.0.0":
+  version: 7.0.0
+  resolution: "npm-packlist@npm:7.0.0"
+  dependencies:
+    ignore-walk: ^5.0.1
+  checksum: 5a8e39a5105b8d0e9e1c7a656d3ae53b69e156fe7da53bb2f0197c9b2b3bf5b7d178be3e8c6bd367c80ffa563fe439ede5513e337509a9e7d99599ca5663b911
+  languageName: node
+  linkType: hard
+
+"npm-packlist@npm:^5.1.0, npm-packlist@npm:^5.1.1":
   version: 5.1.3
   resolution: "npm-packlist@npm:5.1.3"
   dependencies:
@@ -27165,7 +27174,7 @@ __metadata:
     ncp: 2.0.0
     node-notifier: 10.0.1
     nodemon: 2.0.20
-    npm-packlist: 5.1.3
+    npm-packlist: 7.0.0
     nx: 14.8.3
     octokit: 2.0.7
     ora: 5.4.1
