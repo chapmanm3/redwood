@@ -4954,17 +4954,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nhost/core@npm:0.7.6":
-  version: 0.7.6
-  resolution: "@nhost/core@npm:0.7.6"
-  dependencies:
-    axios: ^0.27.2
-    js-cookie: ^3.0.1
-    xstate: ^4.32.1
-  checksum: 877c19df3c6b5da5e4fccabb1f626c436e987fb473fd266afa17082ffbbfa2fba0379a7dcc3967e2cf9d9748755ec392dfe3640b4eb6e0364e9c6342b3687ba5
-  languageName: node
-  linkType: hard
-
 "@nhost/core@npm:0.8.0":
   version: 0.8.0
   resolution: "@nhost/core@npm:0.8.0"
@@ -4974,17 +4963,6 @@ __metadata:
     js-cookie: ^3.0.1
     xstate: ^4.32.1
   checksum: 0d25b5323a6ad0757b09499c84f331c86403ff52e57b0320ae783fa9b86607937410ff54b13688d82ac841f47674702fa1094f6bdcaee71bad072ad7e5386ad7
-  languageName: node
-  linkType: hard
-
-"@nhost/hasura-auth-js@npm:1.4.1":
-  version: 1.4.1
-  resolution: "@nhost/hasura-auth-js@npm:1.4.1"
-  dependencies:
-    "@nhost/core": 0.7.6
-    jwt-decode: ^3.1.2
-    xstate: ^4.32.1
-  checksum: 92335a76288303a0aa10f9e3db4600cfc90066ab433fb92d6ddb1697608727c4c1a9c988f2ab7f1cddf329f3b3ff20937fc9109dbfcd429e0abb2fea3e051dcb
   languageName: node
   linkType: hard
 
@@ -6299,7 +6277,7 @@ __metadata:
     "@clerk/clerk-react": 3.5.1
     "@clerk/clerk-sdk-node": 3.9.2
     "@clerk/types": 2.21.0
-    "@nhost/hasura-auth-js": 1.4.1
+    "@nhost/hasura-auth-js": 1.5.0
     "@nhost/nhost-js": 1.5.0
     "@okta/okta-auth-js": 6.9.0
     "@simplewebauthn/browser": 6.2.1
